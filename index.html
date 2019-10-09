@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Aquacibus</title>
+	<meta name="description" content="a website about the water crisis that our world is experiencing now along with statistics, articles, and stories to back it up and charities that help battle it."/>
+	<meta name="keywords" content="water shortage, world problems, world solutions, food shortage, water scarcity in the world"/>
+	<meta name="author" content="Franzesca De Leon, Benjeouelle Lazaro, Danielle Santos"/>
+	<meta name="revised" content="Franzesca De Leon, Benjeouelle Lazaro, Danielle Santos, 10/9/2019"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="icon" href="pics\logoo.ico">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<style>
+.slides {
+	padding-top: 50px;
+	padding-bottom: 60px;
+	position: absolute;
+	right: 265px;
+}
+
+.navbar {
+	background-color: white;
+	height: 50%;
+	width: 100%;
+	z-index: 3;
+}
+
+.logo {
+	width: 23%;
+	height: 23%;
+	padding-top: 17px;
+}
+
+.navd {
+	font-family: "Trebuchet MS";
+	font-size: 17px;
+	color: #242929;
+	position: absolute;
+	right: 243px;
+	top: 49px;
+}
+
+.options {
+	height: 5%;
+	width: 100%;
+	background-color: #38AECC;
+	padding-top: 5px;
+	padding-bottom 5px;
+	font-weight: bold;
+}
+
+.options a {
+	display: inline;
+	padding-right: 60px;
+	color: white;
+	padding-left: 60px;
+	letter-spacing: 0.27em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.facebook {
+	position: absolute;
+	right: 186px;
+	top: 36px;
+	width: 3%;
+	height: 38%;
+}
+
+.insta {
+	position: absolute;
+	right: 145px;
+	top: 42px;
+	width:2%;
+	height: 25%;
+}
+
+.twt {
+	position: absolute;
+	right: 88px;
+	top: 36px;
+	width: 3%;
+	height: 38%;
+}
+
+.gmail {
+	position: absolute;
+	top: 38px;
+	right: 40px;
+	width: 2.5%;
+	height: 35%;
+}
+
+.introtitle {
+	position: absolute;
+	top: 470px;
+	right: 40px;
+	color: white;	
+	text-align: right;
+	font-weight: bold;
+}
+
+.introtitle2 {
+	position: absolute;
+	top: 557px;
+	right: 40px;
+	color: white;	
+	text-align: right;
+	font-weight: bold;
+}
+
+.introtext {
+	position: absolute;
+	color: white;
+	top: 667px;
+	right: 40px;
+	left: 560px;
+	text-align: right;
+}
+
+.caption {
+	font-family: Garamond;
+	color: white;
+	font-size: 475%;
+	font-weight: bold;
+}
+
+.capone {
+	position: absolute;
+	top: 10%;
+	right: 30%;
+	left: 30%;
+	line-height: 1;	
+}
+
+.captwo {
+	position: absolute;
+	top: 7%;
+	right: 24%;
+	left: 37%;
+	text-align: right;
+	line-height: 1;
+}
+
+.capthree {
+	position: absolute;
+	top: 7%;
+	right: 24%;
+	left: 37%;
+	text-align: right;
+	line-height: 1;
+}
+
+.articlepic {
+	position: absolute;
+	top: 1350px;
+	left: 60px;
+	width: 13%;
+}
+
+.articlepic2 {
+	position: absolute;
+	top: 1350px;
+	left: 390px;
+	width: 13%;
+}
+
+.articlepic:hover {
+	opacity: 0.8;
+}
+
+.articlepic2:hover {
+	opacity: 0.8;
+}
+
+.art {
+	font-family: 'Trebuchet MS';
+	font-size: 16px;
+	line-height: 1.5;
+	line-spacing: 0.8;
+	font-align: justify;
+	position: absolute;
+	top: 1360px;
+	left: 237px;
+	right: 860px;
+}
+
+.art2 {
+	font-family: 'Trebuchet MS';
+	font-size: 16px;
+	line-height: 1.5;
+	line-spacing: 0.8;
+	font-align: justify;
+	position: absolute;
+	top: 1360px;
+	left:573px;
+	right: 500px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+	position: absolute;
+	top: 1450px;
+	left:573px;
+	right: 540px;    
+}
+
+hr2 {
+	display: block;
+	height: 1px;
+	border: 0;
+ 	border-top: 1px solid #ccc;
+	margin: 1em 0;
+	padding: 0;
+	position: absolute;
+	top: 1476px;
+	left: 236px;
+	right: 880px;    
+}
+
+.aboutbox {
+	background-color: #38AECC;
+	position: absolute;
+	top: 877px;
+	right: 16px;
+	width: 40%;
+	height: 72%;
+	opacity: 0.7;
+	font-family: 'Trebuchet MS';
+	font-size: 240%;
+	color: white;
+	padding-top: 20px;
+	padding-left: 16px;
+}
+
+.abouttext {
+	font-family: 'Trebuchet MS';
+	font-size: 18px;
+	color: white;
+	position: absolute;
+	top: 970px;
+	left: 750px;
+	right: 35px;
+}
+
+.aboutlink {
+	color: #EFCA08;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	position: absolute;
+	top: 330px;
+	right: 85px;
+}
+
+.image {
+	width: 436%;
+	position: absolute;
+	top: -165px;
+	right: 26px;
+	left: 500px;
+}
+
+.power {
+	font-family: 'Trebuchet MS';
+	font-size: 260%;
+	position: absolute;
+	top: 107px;
+	left: -180px;
+	color: #38AECC;
+}
+
+.powerdes {
+	font-family: 'Trebuchet MS';
+	font-size: 18px;
+	position: absolute;
+	top: 180px;
+	left: -160px;
+	right: -260px;
+}
+
+.learnlink {
+	color: #EFCA08;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	position: absolute;
+	top: 390px;
+	left: -160px;
+	right: -260px;
+}
+
+.water12 {
+	width: 436%;
+	position: absolute;
+	top: 180px;
+	right: 26px;
+	left: 500px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+	<img src="pics\loogh.png" alt="logo" class="logo">
+	<a href="" class="navd"> Contact Us</a>
+	<a href=""><img src="pics\fg.png" class="facebook"></a> 
+	<a href=""><img src="pics\insg.png" class="insta"></a>
+	<a href=""><img src="pics\twg.png" class="twt"></a>
+	<a href=""><img src="pics\gg.png" class="gmail"></a>
+</div>
+
+<center>
+
+<div class="options">
+	<a href="htdocs\about.html"  style="font-family: 'Trebuchet MS' font-size: 24px;">ABOUT US</a>
+	<a href=""  style="font-family: 'Trebuchet MS' font-size: 24px;">LEARN MORE</a>
+	<a href=""  style="font-family: 'Trebuchet MS' font-size: 24px;">STORIES</a>
+	<a href="htdocs\donate.html"  style="font-family: 'Trebuchet MS' font-size: 24px;">DONATE</a>
+</div>
+
+</center>
+
+<div>
+	<img src="pics\water3.jpg" width="100%" height="70%">
+	<p class="introtitle" style="font-family: Garamond; font-size: 83px;">Every drop</p>
+	<p class="introtitle2" style="font-family: Garamond; font-size: 83px;">counts.</p>
+	<p class="introtext" style="font-family: 'Trebuchet MS'; font-size: 19px;">Aquacibus aims to help bring awareness to the millions around the world who do not have access to clean, safe water. Explore our website to discover more about our fight against the global water problem.</p>
+</div>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  
+<center>
+
+  <div class="carousel-inner slides">
+    <div class="carousel-item active" height="90%" width:"100%">
+      <img src="pics\t.jpg">
+      <div class="caption capone">Be aware.</div>
+    </div>
+    <div class="carousel-item">
+      <img src="pics\j.jpg">
+      <div class="caption captwo">Discover stories.</div>
+    </div>
+    <div class="carousel-item">
+      <img src="pics\yes.jpg">
+      <div class="caption capthree">Get involved.</div>
+    </div>
+  </div>
+
+</center>
+
+</div>
+
+<div class="aboutbox">What we do.
+	<a href="htdocs\about.html" class="aboutlink">Learn more about us and what we fight for.</a>
+</div>
+
+<p class="abouttext">The water problem is quickly becoming a global phenomenon. The global water crisis currently affects over 1.1 billion people. We want to help alleviate the problem by raising awareness through Aquacibus. We are dedicated to keep this website updated with the latest news and partnered up with several non-profit organizations, so that we can help those who have limited access to clean water. </p>
+
+<a href=""> <img src="pics\article1.jpg" class="articlepic"> </a>
+<p class="art">Water shortage in the Philippines threatens sustainable development</p> <hr/>
+
+<a href=""> <img src="pics\article2.jpg" class="articlepic2"> </a>
+<p class="art2">Two-thirds of the globe face water shortages, major study finds</p> <hr2/> 
+
+<img src="pics\water14.jpg" class="image">
+
+<p class="power">Power of Water</p>
+<p class="powerdes">Access to water opens opportunity to attend school, earn a living, take care of one's family, and so much more. Water has the ability to change someone's life. By making essential clean, potable water accessible to communities, people can put their mind on other things that matter. Clean water is supposed to be an accessible necessity to everyone, not a luxury. Water can empower an entire community.</p>
+<a href="" class="learnlink">Check out how the water crisis affects the world.</a>
+
+<img src="pics\water12.jpg" class="water12">
+
+</body>
+
+</html>
