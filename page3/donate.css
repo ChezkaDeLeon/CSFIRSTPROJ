@@ -1,0 +1,232 @@
+.navbar {
+	background-color: white;
+	height: 50%;
+	width: 100%;
+	z-index: 3;
+}
+
+.logo {
+	width: 23%;
+	height: 23%;
+	padding-top: 17px;
+}
+
+.navd {
+	font-family: "Trebuchet MS";
+	font-size: 17px;
+	color: #242929;
+	position: absolute;
+	right: 243px;
+	top: 49px;
+}
+
+.options {
+	height: 5%;
+	width: 100%;
+	background-color: #38AECC;
+	padding-top: 5px;
+	padding-bottom 5px;
+	font-weight: bold;
+}
+
+.options a {
+	display: inline;
+	padding-right: 60px;
+	color: white;
+	padding-left: 60px;
+	letter-spacing: 0.27em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.facebook {
+	position: absolute;
+	right: 186px;
+	top: 36px;
+	width: 3%;
+	height: 38%;
+}
+
+.insta {
+	position: absolute;
+	right: 145px;
+	top: 42px;
+	width:2%;
+	height: 25%;
+}
+
+.twt {
+	position: absolute;
+	right: 88px;
+	top: 36px;
+	width: 3%;
+	height: 38%;
+}
+
+.gmail {
+	position: absolute;
+	top: 38px;
+	right: 40px;
+	width: 2.5%;
+	height: 35%;
+}
+
+.sol {
+	font-family: Garamond;
+	font-size: 88px;
+	position: absolute;
+	top: 140px;
+	right: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+.soll {
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+	position: absolute;
+	top: 274px;
+	left: 780px;
+	right: 50px;
+	text-align: right;
+	color: white;
+}
+
+.charity {
+	position: absolute;
+	top: 780px;	
+	text-align: left;
+	left: 330px;
+	font-weight: bold;
+	font-size: 56px;
+}
+
+.charitytext {
+	position: absolute;	
+	left: 323px;
+	right: 240px;
+	top: 880px;
+	font-size: 23px;
+	line-height: 1.8;
+	text-align: justify;
+	font-family: "Trebuchet MS";
+}
+
+.charityone {
+	position: absolute;
+	top: 1060px;
+	left: 50px;
+	height: 40%;
+
+}
+
+.charityonetitle {
+	position: absolute;
+	top: 1084px;
+	right: 240px;
+	font-family: 'Trebuchet MS';
+	font-size: 44px;
+	font-weight: bold;
+	color: #38AECC;
+}
+
+.charityonetext {
+	position: absolute;	
+	left: 580px;
+	right: 240px;
+	top: 1158px;
+	font-size: 16px;
+	line-height: 1.5;
+	line-spacing: 0.2em;
+	text-align: justify;
+	font-family: "Trebuchet MS";
+}
+
+.linkone {
+	color: #EFCA08;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	position: absolute;
+	top: 1334px;
+	left: 580px;
+}
+
+.charitytwo {
+	position: absolute;
+	top: 1520px;
+	right: 240px;
+	height: 34%;
+
+}
+
+.charitytwotitle {
+	position: absolute;
+	top: 1460px;
+	left: 130px;
+	font-family: 'Trebuchet MS';
+	font-size: 43px;
+	font-weight: bold;
+	color: #38AECC;
+}
+
+.charitytwotext {
+	position: absolute;
+	top: 1537px;
+	left: 130px;
+	right: 710px;
+	font-family: 'Trebuchet MS';
+	font-size: 16px;
+	line-spacing: 0.2em;
+	text-align: justify;
+}
+
+.linktwo {
+	color: #EFCA08;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	position: absolute;
+	top: 1717px;
+	left: 130px;
+}
+
+.charitythree {
+	position: absolute;
+	top: 1890px;
+	left: 50px;
+	height: 38%;
+
+}
+
+.charitythreetitle {
+	position: absolute;
+	top: 1830px;
+	right: 240px;
+	font-family: 'Trebuchet MS';
+	font-size: 44px;
+	font-weight: bold;
+	color: #38AECC;
+}
+
+.charitythreetext {
+	position: absolute;	
+	left: 580px;
+	right: 240px;
+	top: 1907px;
+	font-size: 16px;
+	line-height: 1.5;
+	line-spacing: 0.2em;
+	text-align: justify;
+	font-family: "Trebuchet MS";
+}
+
+.linkthree {
+	color: #EFCA08;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	position: absolute;
+	top: 2090px;
+	left: 580px;
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Aquacibus</title>
+	<meta name="description" content="a website about the water crisis that our world is experiencing now along with statistics, articles, and stories to back it up and charities that help battle it."/>
+	<meta name="keywords" content="water shortage, world problems, world solutions, food shortage, water scarcity in the world"/>
+	<meta name="author" content="Franzesca De Leon, Benjeouelle Lazaro, Danielle Santos"/>
+	<meta name="revised" content="Franzesca De Leon, Benjeouelle Lazaro, Danielle Santos, 10/9/2019"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="icon" href="..\pics\logoo.ico">
+	
+<style>
+.navbar {
+	background-color: white;
+	height: 50%;
+	width: 100%;
+	z-index: 3;
+}
+
+.logo {
+	width: 23%;
+	height: 23%;
+	padding-top: 17px;
+}
+
+.navd {
+	font-family: "Trebuchet MS";
+	font-size: 17px;
+	color: #242929;
+	position: absolute;
+	right: 243px;
+	top: 49px;
+}
+
+.options {
+	height: 5%;
+	width: 100%;
+	background-color: #38AECC;
+	padding-top: 5px;
+	padding-bottom 5px;
+	font-weight: bold;
+}
+
+.options a {
+	display: inline;
+	padding-right: 60px;
+	color: white;
+	padding-left: 60px;
+	letter-spacing: 0.27em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.facebook {
+	position: absolute;
+	right: 186px;
+	top: 36px;
+	width: 3%;
+	height: 38%;
+}
+
+.insta {
+	position: absolute;
+	right: 145px;
+	top: 42px;
+	width:2%;
+	height: 25%;
+}
+
+.twt {
+	position: absolute;
+	right: 88px;
+	top: 36px;
+	width: 3%;
+	height: 38%;
+}
+
+.gmail {
+	position: absolute;
+	top: 38px;
+	right: 40px;
+	width: 2.5%;
+	height: 35%;
+}
+
+.sol {
+	font-family: Garamond;
+	font-size: 88px;
+	position: absolute;
+	top: 140px;
+	right: 40px;
+	color: white;
+	font-weight: bold;
+}
+
+.soll {
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+	position: absolute;
+	top: 274px;
+	left: 780px;
+	right: 50px;
+	text-align: right;
+	color: white;
+}
+
+.charity {
+	position: absolute;
+	top: 780px;	
+	text-align: left;
+	left: 330px;
+	font-weight: bold;
+	font-size: 56px;
+}
+
+.charitytext {
+	position: absolute;	
+	left: 323px;
+	right: 240px;
+	top: 880px;
+	font-size: 23px;
+	line-height: 1.8;
+	text-align: justify;
+	font-family: "Trebuchet MS";
+}
+
+.charityone {
+	position: absolute;
+	top: 1060px;
+	left: 50px;
+	height: 40%;
+
+}
+
+.charityonetitle {
+	position: absolute;
+	top: 1084px;
+	right: 240px;
+	font-family: 'Trebuchet MS';
+	font-size: 44px;
+	font-weight: bold;
+	color: #38AECC;
+}
+
+.charityonetext {
+	position: absolute;	
+	left: 580px;
+	right: 240px;
+	top: 1158px;
+	font-size: 16px;
+	line-height: 1.5;
+	line-spacing: 0.2em;
+	text-align: justify;
+	font-family: "Trebuchet MS";
+}
+
+.linkone {
+	color: #EFCA08;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	position: absolute;
+	top: 1334px;
+	left: 580px;
+}
+
+.charitytwo {
+	position: absolute;
+	top: 1520px;
+	right: 240px;
+	height: 34%;
+
+}
+
+.charitytwotitle {
+	position: absolute;
+	top: 1460px;
+	left: 130px;
+	font-family: 'Trebuchet MS';
+	font-size: 43px;
+	font-weight: bold;
+	color: #38AECC;
+}
+
+.charitytwotext {
+	position: absolute;
+	top: 1537px;
+	left: 130px;
+	right: 710px;
+	font-family: 'Trebuchet MS';
+	font-size: 16px;
+	line-spacing: 0.2em;
+	text-align: justify;
+}
+
+.linktwo {
+	color: #EFCA08;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	position: absolute;
+	top: 1717px;
+	left: 130px;
+}
+
+.charitythree {
+	position: absolute;
+	top: 1890px;
+	left: 50px;
+	height: 38%;
+
+}
+
+.charitythreetitle {
+	position: absolute;
+	top: 1830px;
+	right: 240px;
+	font-family: 'Trebuchet MS';
+	font-size: 44px;
+	font-weight: bold;
+	color: #38AECC;
+}
+
+.charitythreetext {
+	position: absolute;	
+	left: 580px;
+	right: 240px;
+	top: 1907px;
+	font-size: 16px;
+	line-height: 1.5;
+	line-spacing: 0.2em;
+	text-align: justify;
+	font-family: "Trebuchet MS";
+}
+
+.linkthree {
+	color: #EFCA08;
+	font-size: 17px;
+	font-weight: bold;
+	font-family: "Trebuchet MS";
+	position: absolute;
+	top: 2090px;
+	left: 580px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+	<a href="..\htdocs\index.html"><img src="..\pics\loogh.png" alt="logo" class="logo" title="Home"></a>
+	<a href="" class="navd" title="Contact Us"> Contact Us</a>
+	<a href=""><img src="..\pics\fg.png" class="facebook"></a> 
+	<a href=""><img src="..\pics\insg.png" class="insta"></a>
+	<a href=""><img src="..\pics\twg.png" class="twt"></a>
+	<a href=""><img src="..\pics\gg.png" class="gmail"></a>
+</div>
+
+<center>
+
+<div class="options">
+	<a href="..\htdocs\about.html"  style="font-family: 'Trebuchet MS' font-size: 24px;">ABOUT US</a>
+	<a href=""  style="font-family: 'Trebuchet MS' font-size: 24px;">LEARN MORE</a>
+	<a href="..\htdocs\stories.html"  style="font-family: 'Trebuchet MS' font-size: 24px;">STORIES</a>
+	<a href="..\htcs\donate.html"  style="font-family: 'Trebuchet MS' font-size: 24px;">DONATE</a>
+</div>
+
+</center>
+
+<img src="..\pics\water18.jpg" width="100%">
+<p class="sol">Join the cause.</p>
+<p class="soll">Be a part of the solution towards a better world. Help us fight the global water crisis and join us take action to help the millions of families and children in need. A simple donation to any of the charities or non-profit organizations below can help bring water to an entire community.</p>
+
+<p class="charity">Get involved.</p>
+<p class="charitytext">A donation to any of these well-known charities or non-profit organizations below can help improve the lives of hundreds. Make sure to check out these amazing foundations and their advocacies for solving the global water crisis.</p>
+
+<img src="..\pics\waterorg.png" class="charityone" title="water.org">
+<p class="charityonetitle">water.org</p>
+<p class="charityonetext">A non-profit organization providing poeple access to safe water and sanitation in developing countries by working with local water organizations to build wells and provides seminars about good hygiene. Founded by Matt Damon and Gary White, this organization has helped over 22 million people all over the world gain access to safe water and sanitation.</p>
+<a href="https://water.org/" class="linkone">Check out the website here.</a> 
+
+<img src="..\pics\wavesforwater.png" class="charitytwo" title="Waves for Water">
+<p class="charitytwotitle">Waves for Water</p>
+<p class="charitytwotext">This humanitarian organization provides clean water to communities in need around the world through its Courier Program of distributing water filters to travelers. It has 24 active programs that have helped at least 3.7 million people in need in over 44 countries. They have responded to 33 global disasters and counting. Their philosophy is rooted in one simple idea: “do what you love and help along the way.”  </p>
+<a href="https://www.wavesforwater.org" class="linktwo">Learn more about Waves for Water.</a>
+
+<img src="..\pics\charitywater.png" class="charitythree" title="charity: water">
+<p class="charitythreetitle">charity: water</p>
+<p class="charitythreetext">This is a non-profit that brings clean and safe drinking water to people in developing countries by using 100% of donations to developing clean water technologies that range from wells to water filtration. They have built sustainable, community-owned water projects around the world and have funded over 44,000 water projects helping over 10 million people in 27 countries.</p>
+<a href="https://my.charitywater.org/" class="linkthree">Donate to charity: water on their website.</a>
+
+</body>
+
+</html>
